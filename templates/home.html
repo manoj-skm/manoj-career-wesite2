@@ -20,7 +20,7 @@
   <body>
     {% include 'nav.html' %}
     <h1 class="text-center mt-2 mb-4">Manoj Careers</h1>
-    <img class="img-fluid" id="banner" src="https://8e618f40-83c7-4de9-98c1-8076016b64b4-00-1hxslm3q4x2bz.pike.replit.dev/static/image.jpg">
+    <img class="img-fluid" id="banner" src="{{ url_for('static', filename='image.jpg') }}" alt="banner"}}">
     <div class="container">
       <h2 class="text-center mt-2 mb-4">About Manoj</h2>
       <div class="row" style="margin-bottom:16px;">
